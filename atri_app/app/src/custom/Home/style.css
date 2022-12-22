@@ -1,0 +1,23 @@
+/* p-Home.TextBox31{
+    
+} */
+/* .p-Home TextBox31 bpt{
+    background: linear-gradient(
+        to right, #f32170, #ff6b08,
+         #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} */
+
+.p-Home.TextBox31.bpt{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.p-Home.Button3.bpt{
+transition: all 0.5s;
+}
+.p-Home.Button3.bpt:hover{
+    background-color: gray;
+}
+

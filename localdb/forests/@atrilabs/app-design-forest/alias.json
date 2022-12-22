@@ -1,0 +1,14 @@
+{
+  "TextBox": 57,
+  "Image": 14,
+  "Button": 10,
+  "Flex": 51,
+  "Menu": 3,
+  "Div": 8,
+  "Link": 1,
+  "Dropdown": 1,
+  "Form": 1,
+  "Icon": 1,
+  "Alert": 1,
+  "UnorderedList": 2
+}
