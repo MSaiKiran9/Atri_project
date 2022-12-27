@@ -322,3 +322,55 @@ export function useButton10Cb() {
 }), [])
 	return { onClick }
 }
+export function useCascader1Cb() {
+	const onClick = useCallback(callbackFactory("Cascader1", "Services", "/Services", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useBreadcrumb1Cb() {
+	const onClick = useCallback(callbackFactory("Breadcrumb1", "Services", "/Services", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTestimonial1Cb() {
+	const onClick = useCallback(callbackFactory("Testimonial1", "Services", "/Services", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useCarousel3Cb() {
+
+	return {  }
+}

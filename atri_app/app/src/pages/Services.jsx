@@ -7,9 +7,13 @@ import {fetchPageProps} from "../utils/fetchPageProps"
 import { Flex as Flex1 } from "@atrilabs/react-component-manifests/src/manifests/Flex/Flex.tsx";
 import { Menu as Menu1 } from "@atrilabs/react-component-manifests/src/manifests/Menu/Menu.tsx";
 import { Button as Button1 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
+import { Cascader } from "@atrilabs/react-component-manifests/src/manifests/Cascader/Cascader.tsx";
+import { Breadcrumb } from "@atrilabs/react-component-manifests/src/manifests/Breadcrumb/Breadcrumb.tsx";
+import { Testimonial as Testimonial1 } from "@atrilabs/react-component-manifests/src/manifests/Testimonial/Testimonial.tsx";
+import { Carousel } from "@atrilabs/react-component-manifests/src/manifests/Carousel/Carousel.tsx";
 import { TextBox as TextBox1 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Image as Image1 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
-import { useFlex42Cb, useFlex39Cb, useFlex35Cb, useFlex40Cb, useMenu3Cb, useFlex34Cb, useFlex41Cb, useFlex37Cb, useFlex38Cb, useButton10Cb, useTextBox43Cb, useTextBox44Cb, useTextBox45Cb, useTextBox46Cb, useTextBox47Cb, useFlex36Cb, useTextBox39Cb, useTextBox40Cb, useTextBox41Cb, useTextBox42Cb, useImage11Cb, useImage12Cb } from "../page-cbs/Services";
+import { useFlex42Cb, useFlex39Cb, useFlex35Cb, useFlex40Cb, useMenu3Cb, useFlex34Cb, useFlex41Cb, useFlex37Cb, useFlex38Cb, useButton10Cb, useCascader1Cb, useBreadcrumb1Cb, useTestimonial1Cb, useCarousel3Cb, useTextBox43Cb, useTextBox44Cb, useTextBox45Cb, useTextBox46Cb, useTextBox47Cb, useFlex36Cb, useTextBox39Cb, useTextBox40Cb, useTextBox41Cb, useTextBox42Cb, useImage11Cb, useImage12Cb } from "../page-cbs/Services";
 import "../page-css/Services.css";
 import "../custom/Services";
 
@@ -59,6 +63,18 @@ const Flex38Cb = useFlex38Cb()
 const Button10Props = useStore((state)=>state["Services"]["Button10"]);
 const Button10IoProps = useIoStore((state)=>state["Services"]["Button10"]);
 const Button10Cb = useButton10Cb()
+const Cascader1Props = useStore((state)=>state["Services"]["Cascader1"]);
+const Cascader1IoProps = useIoStore((state)=>state["Services"]["Cascader1"]);
+const Cascader1Cb = useCascader1Cb()
+const Breadcrumb1Props = useStore((state)=>state["Services"]["Breadcrumb1"]);
+const Breadcrumb1IoProps = useIoStore((state)=>state["Services"]["Breadcrumb1"]);
+const Breadcrumb1Cb = useBreadcrumb1Cb()
+const Testimonial1Props = useStore((state)=>state["Services"]["Testimonial1"]);
+const Testimonial1IoProps = useIoStore((state)=>state["Services"]["Testimonial1"]);
+const Testimonial1Cb = useTestimonial1Cb()
+const Carousel3Props = useStore((state)=>state["Services"]["Carousel3"]);
+const Carousel3IoProps = useIoStore((state)=>state["Services"]["Carousel3"]);
+const Carousel3Cb = useCarousel3Cb()
 const TextBox43Props = useStore((state)=>state["Services"]["TextBox43"]);
 const TextBox43IoProps = useIoStore((state)=>state["Services"]["TextBox43"]);
 const TextBox43Cb = useTextBox43Cb()
@@ -128,5 +144,9 @@ const Image12Cb = useImage12Cb()
 </Flex1>
 </Flex1>
 <Button1 className="p-Services Button10 bpt" {...Button10Props} {...Button10Cb} {...Button10IoProps}/>
+<Cascader className="p-Services Cascader1 bpt" {...Cascader1Props} {...Cascader1Cb} {...Cascader1IoProps}/>
+<Breadcrumb className="p-Services Breadcrumb1 bpt" {...Breadcrumb1Props} {...Breadcrumb1Cb} {...Breadcrumb1IoProps}/>
+<Testimonial1 className="p-Services Testimonial1 bpt" {...Testimonial1Props} {...Testimonial1Cb} {...Testimonial1IoProps}/>
+<Carousel className="p-Services Carousel3 bpt" {...Carousel3Props} {...Carousel3Cb} {...Carousel3IoProps}/>
   </>);
 }

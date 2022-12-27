@@ -68,6 +68,19 @@ border-color: #1890ff;
 cursor: pointer;
 user-select: none;
 }
+.p-Services.Cascader1 {
+width: 160px;
+}
+.p-Services.Breadcrumb1 {
+;
+}
+.p-Services.Testimonial1 {
+;
+}
+.p-Services.Carousel3 {
+height: 300px;
+width: 400px;
+}
 .p-Services.TextBox43 {
 cursor: pointer;
 }
